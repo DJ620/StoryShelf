@@ -1,0 +1,46 @@
+body {
+    background-image: url("https://www.photoshopsupply.com/wp-content/uploads/2019/05/simple-pattern.jpg")
+}
+
+.btn {
+    box-shadow: 2px 2px 20px -7px black;
+    /* border: none !important;
+    outline: none !important; */
+}
+
+.card {
+    background: linear-gradient(180deg, white, rgb(199, 199, 199)) !important;
+}
+
+.toggle:focus {
+    outline: none !important;
+    outline-offset: none !important;
+}
+
+.btn-maroon {
+    background-color: #6f1d1b;
+    color: white;
+}
+
+.btn-maroon:hover {
+    background-color: #980906;
+    color: white;
+}
+
+.bg-maroon {
+    background-color: #6f1d1b;
+}
+
+.bg-munshell {
+    background-color: #21a179;
+    color: darkslategray; 
+}
+
+.btn-munshell {
+    background-color: #21a179;
+    color: darkslategray;
+}
+
+.btn-munshell:hover {
+    background-color: #0f8560;
+}
