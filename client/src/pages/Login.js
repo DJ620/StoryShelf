@@ -18,7 +18,7 @@ const Login = () => {
   }, [demo]);
 
   const signIn = (e) => {
-    e.preventDefault();
+    e?.preventDefault();
     setError(null);
     setLoading(true);
     api.login({ username, password }).then((res) => {
