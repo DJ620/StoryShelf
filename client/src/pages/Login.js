@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import api from "../utils/api";
 import { Form, Spinner } from "react-bootstrap";
@@ -9,6 +9,13 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [demo, setDemo] = useState(false);
+
+  useEffect(() => {
+    if (demo) {
+      signIn();
+    }
+  }, [demo]);
 
   const signIn = (e) => {
     e.preventDefault();
@@ -24,6 +31,12 @@ const Login = () => {
         setError(res.data.message);
       }
     });
+  };
+
+  const useDemo = async () => {
+    setUsername("demo");
+    setPassword("demo123");
+    setDemo(true);
   };
 
   const styles = {
@@ -73,6 +86,15 @@ const Login = () => {
           {error}
         </p>
       ) : null}
+      <div className="row d-flex justify-content-center mt-4">
+        <button
+          className="btn btn-link"
+          style={{ width: "200px", fontSize: "14px", boxShadow:"none" }}
+          onClick={useDemo}
+        >
+          Use demo account
+        </button>
+      </div>
     </div>
   );
 };

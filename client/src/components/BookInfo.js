@@ -22,6 +22,8 @@ const BookInfo = ({ book, reloadSearch }) => {
             setMongoBookId(mongoBook._id);
           }
         });
+      } else {
+        setIsInCollection(false)
       }
     });
   }, [book]);
