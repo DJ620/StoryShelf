@@ -1,5 +1,5 @@
 {
-  "name": "Book-tracker",
+  "name": "StoryShelf",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DJ620/Book-tracker.git"
+    "url": "git+https://github.com/DJ620/StoryShelf.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DJ620/Book-tracker/issues"
+    "url": "https://github.com/DJ620/StoryShelf/issues"
   },
-  "homepage": "https://github.com/DJ620/Book-tracker#readme",
+  "homepage": "https://github.com/DJ620/StoryShelf#readme",
   "dependencies": {
     "concurrently": "^6.5.1",
     "dotenv": "^8.2.0",
