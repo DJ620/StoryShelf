@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <div className="mb-5">
     <Navbar expand="sm" fixed="top" className="shadow bg-maroon">
-      <Navbar.Brand href="/collection" className="font-weight-bold" style={styles.brand}>Reading Tracker</Navbar.Brand>
+      <Navbar.Brand href="/collection" className="font-weight-bold" style={styles.brand}>StoryShelf</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       {username ? <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto font-weight-bold">
