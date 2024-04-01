@@ -11,7 +11,7 @@ To run the application locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/DJ620/Reading-Tracker
+    git clone https://github.com/DJ620/StoryShelf
     ```
 
 2. Navigate to the project directory:
