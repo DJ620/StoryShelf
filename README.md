@@ -30,7 +30,7 @@ To run the application locally, follow these steps:
 
 StoryShelf is a user-friendly web application for tracking reading progress. Follow these steps to get started:
 
-1. Visit the live version of the app at [StoryShelf](https://dj-reading-tracker.netlify.app/).
+1. Visit the live version of the app at [StoryShelf](https://story-shelf.netlify.app/).
 2. Login or register as a new user.
 3. Explore the intuitive interface to manage your reading sessions, add quotes, and take notes.
 4. Organize your books into 'Books I Plan to Read', 'Current Reading', and 'Books I've Read' sections for better book management.
