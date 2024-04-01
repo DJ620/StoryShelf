@@ -1,16 +1,8 @@
-<<<<<<< HEAD
 # StoryShelf
 
 ## Description
 
 StoryShelf is a web application designed to help users track their reading progress. Leveraging the Google Books API, the application allows users to fetch book data, log reading sessions, and organize their reading lists efficiently.
-=======
-# Reading Tracker
-
-## Description
-
-Reading Tracker is a web application designed to help users track their reading progress. Leveraging the Google Books API, the application allows users to fetch book data, log reading sessions, and organize their reading lists efficiently.
->>>>>>> 8d7e632b58e147533fa57266b366c01f81631e03
 
 ## Installation Instructions
 
@@ -19,7 +11,7 @@ To run the application locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/DJ620/Reading-Tracker
+    git clone https://github.com/DJ620/StoryShelf
     ```
 
 2. Navigate to the project directory:
@@ -36,15 +28,9 @@ To run the application locally, follow these steps:
 
 ## Usage
 
-<<<<<<< HEAD
 StoryShelf is a user-friendly web application for tracking reading progress. Follow these steps to get started:
 
 1. Visit the live version of the app at [StoryShelf](https://story-shelf.netlify.app/).
-=======
-Reading Tracker is a user-friendly web application for tracking reading progress. Follow these steps to get started:
-
-1. Visit the live version of the app at [Reading Tracker](https://dj-reading-tracker.netlify.app/).
->>>>>>> 8d7e632b58e147533fa57266b366c01f81631e03
 2. Login or register as a new user.
 3. Explore the intuitive interface to manage your reading sessions, add quotes, and take notes.
 4. Organize your books into 'Books I Plan to Read', 'Current Reading', and 'Books I've Read' sections for better book management.
@@ -66,11 +52,7 @@ All required dependencies are listed in the `package.json` file. Install them us
 
 ## Contribution Guidelines
 
-<<<<<<< HEAD
 Contributions to StoryShelf are welcome! If you'd like to contribute, please follow these guidelines:
-=======
-Contributions to Reading Tracker are welcome! If you'd like to contribute, please follow these guidelines:
->>>>>>> 8d7e632b58e147533fa57266b366c01f81631e03
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
